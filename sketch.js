@@ -9,11 +9,11 @@ function draw() {
   background('#fae');
 
   if (img) {
-    img.resize(300,300);
+    img.resize(426,240);
     console.log('imgload');
     // get pixel array and call sort pixel function
     img.loadPixels();
-    for (let i = 0; i < 5000; i++) {
+    for (let i = 0; i < 8000; i++) {
       movePixels();
     }
     img.updatePixels(); 
