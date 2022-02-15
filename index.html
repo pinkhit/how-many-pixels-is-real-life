@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>are pixels even real ?</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+    <div id="uploadMenu">
+      <h1><FONT COLOR="BLUE">upload image</h1>
+      <h2><FONT COLOR="BLUE">image will be downscaled to a lower pixel resolution for effect to be more visible</h2>
+      <div class="file-input">
+        <input accept=".png, .jpg, .jpeg" type="file" id="imageUpload" onchange= "handleFile()">
+        <label for="imageUpload">choose file</label>
+      </div>
+    </div>
+  </body>
+</html>
